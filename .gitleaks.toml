@@ -1,0 +1,16 @@
+[allowlist]
+description = "Allow known examples/placeholders and docs"
+files = [
+  '''README\.md$''',
+  '''CONTRIBUTING\.md$''',
+  '''ROADMAP\.md$''',
+  '''Runbook\.md$''',
+  '''scripts/.*\.py$''',
+  '''scripts/.*\.sh$''',
+]
+regexes = [
+  '''(?i)GH_TOKEN''',
+  '''(?i)GITHUB_TOKEN''',
+  '''(?i)OP_SERVICE_ACCOUNT_TOKEN''',
+  '''(?i)AWS_SECRET_ACCESS_KEY''',
+]
